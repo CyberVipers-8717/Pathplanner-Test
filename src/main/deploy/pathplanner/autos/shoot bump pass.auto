@@ -19,13 +19,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Intake Fuel, Get into Climb Position"
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "hahahbahahahaha"
+            "pathName": "Bump Pass"
           }
         }
       ]
