@@ -20,6 +20,7 @@ public class SpinUp extends Command {
     }
 
     public void execute(){
+        System.out.println("Current shooter RPM: "+ launcher.getTopShooterRPM());
 
     }
 
