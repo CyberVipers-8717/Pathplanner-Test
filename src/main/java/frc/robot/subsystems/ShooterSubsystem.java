@@ -133,7 +133,7 @@ public class ShooterSubsystem extends SubsystemBase{
     public void setQueuerRPM(double rpm){
         queuerController.setSetpoint(rpm, SparkMax.ControlType.kVelocity);
     }
-
+    
     //Method to set the queuer motor speed based on percentage of speed, not rpm
     //Change number inside .set() to desired percent (range from -1 to 1) and change
     //setQueuerRPM() to setQueuerPower() in appropriate commands
